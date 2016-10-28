@@ -21,7 +21,7 @@
 
   'React PropType String':
     'prefix': 'RL: PropType String'
-    'body': 'React.PropTypes.String,'
+    'body': 'React.PropTypes.string,'
 
   'React PropType String Required':
     'prefix': 'RL: PropType String Required'
