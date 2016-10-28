@@ -19,6 +19,7 @@
     errorPanelHeight: 225
   "linter-eslint":
     disableWhenNoEslintConfig: false
+    fixOnSave: true
     lintHtmlFiles: true
   welcome:
     showOnStartup: false
