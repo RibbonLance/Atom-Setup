@@ -9,6 +9,10 @@
     'prefix': 'RL: Constructor-State'
     'body': 'constructor(props) {\n  super(props);\n  this.state = {${1}};\n}'
 
+  'React New Ref':
+    'prefix': 'RL: New Ref'
+    'body': 'ref={(${1}) => { this.${1} = ${1}; }}'
+
 ## React PropTypes
 
   'PropShell':
@@ -48,3 +52,17 @@
   'ESLint ExceptMethods UseThis':
     'prefix': 'RL: ESLint | ExceptMethods UseThis'
     'body': '/* eslint class-methods-use-this: ["error", { "exceptMethods":\n["${1}"] }] */'
+
+  'ESLint Disable Line':
+    'prefix': 'RL: ESLint | Disable / Line'
+    'body': '// eslint-disable-line'
+
+  'ESLint Disable Next Line':
+    'prefix': 'RL: ESLint | Disable / Next Line'
+    'body': '// eslint-disable-next-line'
+
+## ESLint Globals
+
+  'ESLint Global: Materialize':
+    'prefix': 'RL: ESLint | Global / Materialize'
+    'body': '/* global Materialize */'
