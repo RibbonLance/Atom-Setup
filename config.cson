@@ -1,0 +1,24 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "4219d454-6d53-44ff-a9fe-6d2ac6f17250"
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "monokai-blackboard"
+    ]
+  editor:
+    fontFamily: "Fira Code"
+    lineHeight: 1.8
+    showIndentGuide: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "19c8e57a-152b-592d-e713-cc62eaefb5c7"
+  linter:
+    errorPanelHeight: 225
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+    lintHtmlFiles: true
+  welcome:
+    showOnStartup: false
