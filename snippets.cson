@@ -1,0 +1,16 @@
+## ReactJS
+
+'.source.js':
+  'Declarations':
+    'prefix': 'RL: Declare'
+    'body': '// Absolute Dependencies\n\n// Relative Dependencies\n\n// Variable Declarations'
+
+  'Constructor w/ State':
+    'prefix': 'RL: Constructor-State'
+    'body': 'constructor(props) {\n  super(props);\n\n  this.state = {\n\n  };\n}'
+
+## ESLint Exceptions
+
+  'ESLint ExceptMethods UseThis':
+    'prefix': 'RL: ESLint | ExceptMethods UseThis'
+    'body': '/* eslint class-methods-use-this: ["error", { "exceptMethods":\n["${1}"] }] */'
