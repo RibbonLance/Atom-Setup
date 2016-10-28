@@ -7,7 +7,41 @@
 
   'Constructor w/ State':
     'prefix': 'RL: Constructor-State'
-    'body': 'constructor(props) {\n  super(props);\n\n  this.state = {\n\n  };\n}'
+    'body': 'constructor(props) {\n  super(props);\n  this.state = {${1}};\n}'
+
+## React PropTypes
+
+  'PropShell':
+    'prefix': 'RL: PropShell'
+    'body': '${1}.propTypes = {${2}};'
+
+  'React PropType String':
+    'prefix': 'RL: PropType String'
+    'body': 'React.PropTypes.String,'
+
+  'React PropType String Required':
+    'prefix': 'RL: PropType String Required'
+    'body': 'React.PropTypes.string.isRequired,'
+
+  'React PropType Function':
+    'prefix': 'RL: PropType Function'
+    'body': 'React.PropTypes.func,'
+
+  'React PropType Boolean':
+    'prefix': 'RL: PropType Boolean'
+    'body': 'React.PropTypes.bool,'
+
+  'React PropType Boolean Required':
+    'prefix': 'RL: PropType Boolean Required'
+    'body': 'React.PropTypes.bool.isRequired,'
+
+  'React PropType Number':
+    'prefix': 'RL: PropType Number'
+    'body': 'React.PropTypes.number,'
+
+  'React PropType Number Required':
+    'prefix': 'RL: PropType Number Required'
+    'body': 'React.PropTypes.number.isRequired,'
 
 ## ESLint Exceptions
 
