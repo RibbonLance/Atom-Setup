@@ -1,6 +1,12 @@
+'.source.js':
+## ES6
+
+  'import':
+    'prefix': 'RL: Import'
+    'body': 'import ${1} from \'${2}/${1}\';'
+
 ## ReactJS
 
-'.source.js':
   'Declarations':
     'prefix': 'RL: Declare'
     'body': '// Absolute Dependencies\n\n// Relative Dependencies\n\n// Variable Declarations'
