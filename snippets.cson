@@ -72,6 +72,20 @@
     'prefix': 'RL: PropType Number Required'
     'body': 'React.PropTypes.number.isRequired,'
 
+## Redux
+
+  'Redux Empty Reducer':
+    'prefix': 'RL: Redux Reducer'
+    'body': '
+      const initialState = {${2}};\n\n
+
+      // eslint-disable-next-line\n
+      export function ${1}(state = initialState, action) {\n\t
+        if (action.type === "") {${3}}\n\t
+        return state;\n
+      }
+    '
+
 ## ESLint Exceptions
 
   'ESLint ExceptMethods UseThis':
