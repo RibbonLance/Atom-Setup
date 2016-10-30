@@ -19,6 +19,21 @@
     'prefix': 'RL: New Ref'
     'body': 'ref={(${1}) => { this.${1} = ${1}; }}'
 
+  'New React Component':
+    'prefix': 'RL: New Component / Class / React'
+    'body': '// Absolute Dependencies\n
+            import React from \'react\';\n
+            // Relative Dependencies\n\n
+            // Variable Declarations\n\n
+            class ${1} extends React.Component {\n
+            \trender() {\n
+            \t\treturn(${3});\n
+            \t};\n
+            }\n\n
+            ${1}.propTypes = {\n\t${2}\n}\n\n
+            ${1}.defaultProps = {\n\t${2}\n}\n\n
+            export default ${1};'
+
 ## React PropTypes
 
   'PropShell':
