@@ -1,9 +1,13 @@
 '.source.js':
 ## ES6
 
-  'import':
+  'Import':
     'prefix': 'RL: Import'
     'body': 'import ${1} from \'${2}/${1}\';'
+
+  'Arrow Function':
+    'prefix': 'RL: Arrow Function'
+    'body': '(${1}) => {${2}}'
 
 ## ReactJS
 
