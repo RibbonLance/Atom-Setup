@@ -15,10 +15,10 @@
     tabType: "soft"
   "exception-reporting":
     userId: "19c8e57a-152b-592d-e713-cc62eaefb5c7"
+  "file-icons": {}
   linter:
-    errorPanelHeight: 225
+    errorPanelHeight: 163
   "linter-eslint":
-    disableWhenNoEslintConfig: false
     fixOnSave: true
     lintHtmlFiles: true
   welcome:
