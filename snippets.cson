@@ -85,6 +85,15 @@
         return state;\n
       }
     '
+## Meteor
+
+  'Meteor Import Check / Match':
+    'prefix': 'RL: Meteor Import Check / Match'
+    'body': 'import { check, Match } from \'meteor/check\';'
+
+  'Meteor Check':
+    'prefix': 'RL: Meteor Check'
+    'body': 'check(${1}, Match.Any);'
 
 ## ESLint Exceptions
 
@@ -99,6 +108,10 @@
   'ESLint Disable Next Line':
     'prefix': 'RL: ESLint | Disable / Next Line'
     'body': '// eslint-disable-next-line'
+
+  'ESLint Global Disable':
+    'prefix': 'RL: ESLint | Disable / Global'
+    'body': '/* eslint-disable */'
 
 ## ESLint Globals
 
