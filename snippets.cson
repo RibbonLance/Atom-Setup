@@ -9,6 +9,10 @@
     'prefix': 'RL: Arrow Function'
     'body': '(${1}) => {${2}}'
 
+  'Console Log':
+    'prefix': 'RL: Log'
+    'body': 'console.log(${1});'
+
 ## ReactJS
 
   'Declarations':
