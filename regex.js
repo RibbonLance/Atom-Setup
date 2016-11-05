@@ -7,8 +7,8 @@
 
   "ReactDOM.findDOMNode(ref) |> ref.node": {
     "Search": /ReactDOM.findDOMNode\((\w*).refs.(\w*)\)/,
-    "Replace": /$1.$2.node/,
-    "Example": 'ReactDOM.findDOMNode(this.refs.useremail)  |>  this.useremail.node'
+    "Replace": /$1.$2/,
+    "Example": 'ReactDOM.findDOMNode(this.refs.useremail)  |>  this.useremail'
   },
 
   "ref = string |> ref = arrow function": {
