@@ -1,0 +1,21 @@
+{
+    "installedESLint": true,
+    "parserOptions": {
+        "allowImportExportEverywhere": true
+    },
+    "extends": [
+        "airbnb"
+    ],
+    "rules": {
+        "import/no-extraneous-dependencies": "off",
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
+        "no-console": "off",
+        "no-underscore-dangle": "off",
+        "class-methods-use-this": "off",
+        "react/forbid-prop-types": 0
+    },
+    "globals": {
+      "Materialize": true
+    }
+}
