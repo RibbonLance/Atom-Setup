@@ -10,6 +10,7 @@
     ]
   editor:
     fontFamily: "Fira Code"
+    fontSize: 16
     lineHeight: 1.8
     showIndentGuide: true
     tabType: "soft"
@@ -19,7 +20,11 @@
   linter:
     errorPanelHeight: 163
   "linter-eslint":
+    disableWhenNoEslintConfig: false
     fixOnSave: true
     lintHtmlFiles: true
+    useGlobalEslint: true
+  minimap: {}
+  pigments: {}
   welcome:
     showOnStartup: false
