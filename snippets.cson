@@ -89,6 +89,17 @@
         return state;\n
       }
     '
+
+## MobX
+
+  'MobX Observable':
+    'prefix': 'RL: MobX Observable'
+    'body': '@observable ${1}'
+
+  'MobX Computed':
+    'prefix': 'RL: MobX Computed'
+    'body': '@computed ${1}'
+
 ## Meteor
 
   'Meteor Import Check / Match':
